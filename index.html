@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-theme="light">
+  <main role="main">
+    <article class="profile-card" aria-labelledby="profile-name" aria-describedby="profile-bio" id="profile-card">
+      <div class="img-wrapper">
+        <img
+        src="./image/Mariam-image.jpeg"
+        alt="mariam's img"
+        class="profile-image"
+        id="profile-image"
+      />
+      </div>
+
+      <h1 id="profile-name" class="profile-name" >Mariam Abiodun</h1>
+      <p class="profile-role" id="profile-role">Frontend Developer</p>
+
+      <p id="profile-bio" class="profile-bio">
+        Passionate about creating accessible and user-friendly digital experiences.
+        Always learning, always building.
+      </p>
+
+      <div class="profile-actions" id="profile-actions">
+        <button class="profile-button" id="btn-follow">Follow</button>
+        <button class="profile-button" id="btn-message">Message</button>
+      </div>
+
+      <button class="theme-toggle" id="themeToggle">
+        Change mode      </button>
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
